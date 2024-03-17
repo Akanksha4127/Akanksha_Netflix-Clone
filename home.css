@@ -57,6 +57,10 @@ option:hover {
     font-size: medium;
     font-weight: 220;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 .first-text-content {
     color: rgb(255,255,255);
     line-height: 2.9rem;

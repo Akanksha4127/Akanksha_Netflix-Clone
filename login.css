@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 16px;
+
+
+}
+body {
+    background-color: black;
+    background-image: url(home_page.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+} 
+.logo {
+    height: 40px;
+    width: 180px;
+    margin-left: 80px;
+    margin-top: 25px;
+
+}
+img {
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.login_main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_container {
+    background-color: rgba(0,0,0,.75);
+    /* backdrop-filter: blur(8px); */
+    border-radius: 5px solid black;
+    height: 680px;
+    width: 450px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-top: 50px;   
+    
+}
+h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 60px;
+    margin-inline-end: 60px;
+}
+
+.login-container1 {
+    margin-block-start: 0.67em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 60px;
+    margin-inline-end: 60px;
+    line-height: 6rem;
+}
+input {    
+    width: 95%;
+    color: #fff;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.8rem;
+    padding-top: 1.25rem;
+    min-height: 3.1rem;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-decoration: inherit;
+    text-transform: inherit;
+    
+}
+::placeholder {
+    color: white;
+    font-size: large;
+    margin-right: 20px;
+    margin-left: 0;
+    transition-duration: 250ms; 
+    transition-property: background-color,border;
+}
+.buttonA{
+    font: small;
+    width: 95%;
+    color: #fff;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    min-height: 2.8rem;
+    background-color: red;
+    border-radius: 5px;
+    border: 0px solid white;
+    text-decoration: inherit;
+    text-transform: inherit;
+    
+}
+span {
+    color: white;
+    
+}
+
+
+
+   
