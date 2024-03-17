@@ -15,6 +15,7 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 } 
 .logo {
     height: 40px;
@@ -37,13 +38,17 @@ img {
     background-color: rgba(0,0,0,.75);
     /* backdrop-filter: blur(8px); */
     border-radius: 5px solid black;
-    height: 680px;
+    height: 650px;
     width: 450px;
     border-radius: 4px;
     box-sizing: border-box;
     flex-direction: column;
-    margin-top: 50px;   
+    margin-top: 50px; 
+    display: flex;  
     
+}
+.heading {
+    padding-bottom: 15px;
 }
 h1{
     color: #fff;
@@ -61,7 +66,8 @@ h1{
     margin-block-end: 0.1em;
     margin-inline-start: 60px;
     margin-inline-end: 60px;
-    line-height: 6rem;
+    
+    
 }
 input {    
     width: 95%;
@@ -86,25 +92,142 @@ input {
     transition-duration: 250ms; 
     transition-property: background-color,border;
 }
+.password_container {
+    margin-top: 0.8em;
+}
 .buttonA{
     font: small;
     width: 95%;
     color: #fff;
-    padding-right: 0.3rem;
-    padding-left: 0.3rem;
-    padding-bottom: 0.3rem;
-    padding-top: 0.3rem;
-    min-height: 2.8rem;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-top: 0.1rem;
+    min-height: 2.4rem;
     background-color: red;
     border-radius: 5px;
     border: 0px solid white;
     text-decoration: inherit;
     text-transform: inherit;
-    
+    cursor: pointer;
+    margin-top: 0.8em;
+    margin-bottom: 0.7em;
+}
+.buttonA:hover {
+    background-color: rgb(193,17,25);
 }
 span {
     color: white;
+    margin-left: 137px;
+    font-size: large;
     
+    
+}
+.buttonB {
+    font: xx-large;
+    width: 95%;
+    color: white;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    min-height: 2.4rem;
+    background-color: grey;
+    text-decoration: inherit;
+    text-transform: inherit;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    content: '';
+    border-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    margin-top: 0.7em;
+
+}
+.buttonB:hover {
+    background-color: rgb(66, 66, 66);
+}
+.buttonC {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-top: 0.8em;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.buttonC:hover {
+    text-decoration: underline;
+}
+.checkbox_container {
+    display: flex;
+    cursor: pointer;
+
+}
+.text {
+    color: #fff;
+    margin-top: 1.3em;
+    margin-left: 0.9em;
+}
+.checkbox {
+    width: 20px;
+    margin-top: 0.6em;
+    cursor: pointer;
+    background-color: white;
+}
+.checkbox:-ms-input-placeholder {
+    background-color: grey;
+}
+.buttonD {
+    margin-left: 8px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+.text2 {
+    color: rgb(120, 119, 119);
+}
+.buttonD:hover {
+    text-decoration: underline;
+}
+.text3 {
+    color: grey;
+    margin-top: 15px;
+    font-size: small;
+}
+
+
+.foter_content {
+    color: white;
+    height: 50vh;
+    max-width: 50vw;
+    margin-left: 70px;
+    padding: 20px;
+    
+    
+}
+.footer {
+    display: grid;
+    gap: 15rem;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    
+}
+.question {
+    padding: 34px 0;
+}
+.footer a {
+    text-decoration: underline;
+    color: white;
+    font-size: 13px;
+    
+
+}
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
 
 
